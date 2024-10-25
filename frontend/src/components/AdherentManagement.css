@@ -1,0 +1,47 @@
+/* AdherentManagement.css */
+
+/* Full-page background with gradient and subtle texture */
+.adherent-background {
+    background: linear-gradient(135deg, #e0f7fa, #fff3e0);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Style the form with better spacing and layout */
+  .MuiTextField-root {
+    margin-bottom: 15px;
+  }
+  
+  /* Style the list for adherents */
+  .MuiListItem-root {
+    background-color: #f0f4f8;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    transition: all 0.3s ease;
+  }
+  
+  .MuiListItem-root:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Add spacing between buttons */
+  .MuiButton-root {
+    margin-left: 10px;
+  }
+  
+  /* Animation for smooth page load */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  

@@ -1,0 +1,141 @@
+/* ProductManagement.css */
+
+/* Full-page background with gradient */
+.product-background {
+    background: linear-gradient(135deg, #f0f4f8, #c3cfe2);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+  }
+  
+  /* Styling for the container and paper elements */
+  .MuiPaper-root {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Typography styling */
+  .MuiTypography-h4 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #3f51b5;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .MuiTypography-h5 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the form inputs */
+  .MuiTextField-root {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+  }
+  
+  /* Styling for the buttons */
+  .MuiButton-root {
+    font-size: 1rem;
+    padding: 10px 20px;
+    text-transform: none;
+    transition: all 0.3s ease;
+    border-radius: 8px;
+  }
+  
+  .MuiButton-containedPrimary {
+    background-color: #3f51b5;
+    color: white;
+  }
+  
+  .MuiButton-containedPrimary:hover {
+    background-color: #303f9f;
+  }
+  
+  .MuiButton-outlinedSecondary {
+    border-color: #f50057;
+    color: #f50057;
+  }
+  
+  .MuiButton-outlinedSecondary:hover {
+    background-color: rgba(245, 0, 87, 0.1);
+  }
+  
+  /* Styling for the product list */
+  .MuiListItem-root {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    transition: all 0.3s ease;
+  }
+  
+  .MuiListItem-root:hover {
+    background-color: #e0f7fa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Product image styling */
+  .MuiListItemText-root img {
+    margin-left: 20px;
+    border-radius: 10px;
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+  }
+  
+  /* Pagination styling */
+  .MuiPagination-root {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  /* Smooth transition for page load */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .product-background {
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .MuiPaper-root {
+      padding: 20px;
+    }
+  
+    .MuiTypography-h4 {
+      font-size: 2rem;
+    }
+  
+    .MuiTypography-h5 {
+      font-size: 1.25rem;
+    }
+  
+    .MuiListItemText-root img {
+      width: 60px;
+      height: 60px;
+    }
+  }
+  

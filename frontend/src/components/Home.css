@@ -1,0 +1,38 @@
+/* Home.css */
+
+/* Full-page background with gradient and subtle texture */
+.dashboard-background {
+    background: linear-gradient(135deg, #ffecd2, #fcb69f);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  /* Styling for buttons with hover effect and animations */
+  .dashboard-button {
+    font-size: 18px;
+    padding: 20px 40px;
+    transition: all 0.3s ease;
+    border-radius: 12px;
+    font-weight: bold;
+    text-transform: none;
+  }
+  
+  .dashboard-button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Additional styling for animations */
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
